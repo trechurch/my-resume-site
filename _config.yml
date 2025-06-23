@@ -5,7 +5,7 @@ baseurl: "/my-resume-site" # the subpath of your site, e.g. /blog
 url: "https://trechurch.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Theme settings
-theme: lanyon
+theme: lanyon - dark
 
 # Lanyon theme specific settings (optional)
 # You can uncomment and modify these if needed
