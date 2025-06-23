@@ -1,0 +1,38 @@
+# _config.yml
+title: "An Occupation Proclamation"
+description: "Infrastructure ~ Innovation ~ Indulgence"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Theme settings
+theme: lanyon
+
+# Lanyon theme specific settings (optional)
+# You can uncomment and modify these if needed
+# sidebar: "always" # Can be "always", "never", "reverse"
+# author: "Jackson Danner Church III ('Tre’')"
+# github: "your_github_username/your_repo_name" # Optional: links to your GitHub repo
+
+# Permalinks for posts
+permalink: /:title/
+
+# Collections (optional, for more structured content beyond typical blog posts)
+# collections:
+#   sections:
+#     output: true
+#     permalink: /:collection/:name/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
